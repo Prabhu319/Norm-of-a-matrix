@@ -12,7 +12,6 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ```Python
 # Register No:24900428
 # Developed By:prabanjan.m
-```
 # 1-Norm of a Matrix
 import numpy as np 
 mat=np.array(eval(input()))
@@ -31,8 +30,6 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-```
-```
 ## Output:
 
 ### 1-Norm of a Matrix
